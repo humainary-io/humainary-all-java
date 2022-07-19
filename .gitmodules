@@ -1,0 +1,57 @@
+[submodule "modules/api/substrates"]
+	path = modules/api/substrates
+	url = https://github.com/humainary-io/humainary-substrates-java
+[submodule "modules/api/channels"]
+	path = modules/api/channels
+	url = https://github.com/humainary-io/humainary-channels-java
+[submodule "modules/api/counters"]
+	path = modules/api/counters
+	url = https://github.com/humainary-io/humainary-counters-java
+[submodule "modules/api/gauges"]
+	path = modules/api/gauges
+	url = https://github.com/humainary-io/humainary-gauges-java
+[submodule "modules/api/signals/services"]
+	path = modules/api/signals/services
+	url = https://github.com/humainary-io/humainary-signals-services-java
+[submodule "modules/api/events"]
+	path = modules/api/events
+	url = https://github.com/humainary-io/humainary-events-java
+[submodule "modules/api/observers"]
+	path = modules/api/observers
+	url = https://github.com/humainary-io/humainary-observers-java
+[submodule "modules/api/stacks"]
+	path = modules/api/stacks
+	url = https://github.com/humainary-io/humainary-stacks-java
+[submodule "modules/api/spi"]
+	path = modules/api/spi
+	url = https://github.com/humainary-io/humainary-spi-java
+[submodule "modules/api/devkit"]
+	path = modules/api/devkit
+	url = https://github.com/humainary-io/humainary-devkit-java
+[submodule "modules/spi/substrates"]
+	path = modules/spi/substrates
+	url = https://github.com/substrates-io/substrates-java
+[submodule "modules/spi/counters"]
+	path = modules/spi/counters
+	url = https://github.com/calculis-io/calculis-counters-java
+[submodule "modules/spi/gauges"]
+	path = modules/spi/gauges
+	url = https://github.com/modulis-io/modulis-gauges-java
+[submodule "modules/spi/stacks"]
+	path = modules/spi/stacks
+	url = https://github.com/stakks-io/stakks-stacks-java
+[submodule "modules/spi/events"]
+	path = modules/spi/events
+	url = https://github.com/phaneros-io/phaneros-events-java
+[submodule "modules/spi/channels"]
+	path = modules/spi/channels
+	url = https://github.com/kanalis-io/kanalis-channels-java
+[submodule "modules/spi/signals/services"]
+	path = modules/spi/signals/services
+	url = https://github.com/opensignals-io/opensignals-services-java
+[submodule "modules/spi/observers"]
+	path = modules/spi/observers
+	url = https://github.com/inspectis-io/inspectis-observers-java
+[submodule "modules/showcase"]
+	path = modules/showcase
+	url = https://github.com/humainary-io/humainary-showcase-java.git

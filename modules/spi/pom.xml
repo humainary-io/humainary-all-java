@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.humainary</groupId>
+    <artifactId>humainary-modules-parent</artifactId>
+    <version>${revision}</version>
+  </parent>
+
+  <artifactId>humainary-modules-spi-parent</artifactId>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>substrates</module>
+    <module>channels</module>
+    <module>counters</module>
+    <module>events</module>
+    <module>gauges</module>
+    <module>observers</module>
+    <module>signals</module>
+    <module>stacks</module>
+  </modules>
+
+</project>

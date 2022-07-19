@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.humainary</groupId>
+    <artifactId>humainary-parent</artifactId>
+    <version>${revision}</version>
+  </parent>
+
+  <artifactId>humainary-modules-parent</artifactId>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>showcase</module>
+  </modules>
+
+  <profiles>
+
+    <profile>
+      <id>api</id>
+
+      <modules>
+        <module>api</module>
+      </modules>
+
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+
+    </profile>
+
+    <profile>
+      <id>testkit</id>
+
+      <modules>
+        <module>api</module>
+      </modules>
+
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+
+      <properties>
+        <maven.test.skip>false</maven.test.skip>
+      </properties>
+
+    </profile>
+
+    <profile>
+      <id>perfkit</id>
+
+      <modules>
+        <module>api</module>
+      </modules>
+
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+
+      <properties>
+        <maven.test.skip>false</maven.test.skip>
+      </properties>
+
+    </profile>
+
+    <profile>
+      <id>spi</id>
+
+      <modules>
+        <module>spi</module>
+      </modules>
+
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+
+    </profile>
+
+  </profiles>
+
+</project>
